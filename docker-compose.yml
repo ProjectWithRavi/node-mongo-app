@@ -10,7 +10,7 @@ services:
       - mongo_data:/data/db
 
   app:
-    build: .
+    image: 123rrftg/my-note-app:latest
     container_name: node_app
     ports:
       - "5000:5000"
